@@ -1,0 +1,61 @@
+.graph-card-item {
+	display: flex;
+	align-items: center;
+}
+
+.graph-card-metric {
+  height: 16px;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 16px;
+	color: #303030;
+}
+
+.graph-card-metric-bar {
+	width: 150px;
+	height: 8px;
+	position: relative;
+  margin: 4px 0;
+}
+
+.graph-card-metric-bar-perfect,
+.graph-card-metric-bar-good,
+.graph-card-metric-bar-inadequate {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	border-radius: 0 4px 4px 0;
+}
+.graph-card-metric-bar-perfect {
+	background: #27c052;
+	z-index: 3;
+}
+.graph-card-metric-bar-good {
+	background: #abd84b;
+	z-index: 2;
+}
+.graph-card-metric-bar-inadequate {
+	background: #df6666;
+	z-index: 1;
+}
+.value {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 16px;
+}
+.value > span {
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 16px;
+}
+.value .perfect {
+  color: #27c052;
+}
+.value .good {
+  color: #abd84b;
+}
+.value .inadequate {
+  color: #df6666;
+}

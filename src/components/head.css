@@ -1,0 +1,56 @@
+header {
+  height: 64px;
+  display: flex;
+  align-items: center;
+  background-color: #FFFFFF;
+}
+
+.logo {
+  flex-grow: 1;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.logo_part2 {
+  color: #2BB449
+}
+
+.notifications {
+  margin-right: 43px;
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+}
+
+.notifications .counter {
+  display: block;
+  height: 20px;
+  width: 20px;
+  background-color: #FF7D45;
+  color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  border-radius: 100%;
+  text-align: center;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.profile-tab {
+  display: flex;
+  align-items: center;
+  column-gap: 12px;
+}
+
+.profile-tab_thumbnail {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  background-color: #E7E7E7;
+}
+
+.profile-tab_name {
+  display: flex;
+  align-items: center;
+  column-gap: 12px;
+}

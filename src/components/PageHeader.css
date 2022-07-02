@@ -1,0 +1,36 @@
+.page-header {
+  display: flex;
+  column-gap: 43px;
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: 500;
+  height: 32px;
+}
+
+.filter-drop {
+  color: #5193F5;
+  display: flex;
+  align-items: center;
+  column-gap: 12px;
+}
+
+.filter-btn {
+  align-self: end;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  width: 191px;
+  height: 36px;
+  background-color: #FFFFFF;
+  border: 1px solid #E4E4E4;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 14px;
+  margin-left: auto;
+}
+
+.filter-btn svg {
+  stroke: #A9A9A9;
+}
