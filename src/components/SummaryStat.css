@@ -6,8 +6,9 @@
 }
 
 .num-card {
+  width: 231px;
   border-right: 1px solid #DEDEDE;
-  padding: 23px 24px 20px;
+  padding: 24px;
 }
 
 .num-card_title {
@@ -39,13 +40,13 @@
 .num-card_values {
   margin-top: 25px;
   display: flex;
-  align-items: end;
-  column-gap: 16px;
+  align-items: flex-end;
 }
 
 .num-card_values__main {
   font-size: 40px;
   line-height: 40px;
+  margin-right: 10px;
 }
 .num-card_values__change {
   width: 44px;
@@ -58,6 +59,7 @@
   display: flex;
   align-items: center;
   column-gap: 2px;
+  margin-bottom: 5px;
 }
 .num-card_values__change.positive {
   background: #E7F8EE;
@@ -73,11 +75,13 @@
   font-size: 14px;
   line-height: 16px;
   color: #5193F5;
+  margin-bottom: 5px;
 }
 .graph-card {
   flex: 1;
   display: grid;
   grid-template-columns: auto auto auto;
+  row-gap: 8px;
   padding: 20px 20px 14px;
 }
 .graph-card_header_filter {

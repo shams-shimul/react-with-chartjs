@@ -6,8 +6,8 @@ import GraphCardItem from './GraphCardItem'
 
 const SummaryStat = () => {
   return (
-    <div className='contained'>
-      <div className="summary-stat">
+    <div className='contained mb-16'>
+      <div className="summary-stat comp-body">
         <div className="num-card">
           <div className="num-card_title">Perfect Images <span className='icon'><IoMdInformation /></span></div>
           <div className="num-card_values">

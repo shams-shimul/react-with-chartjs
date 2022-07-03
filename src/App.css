@@ -1,5 +1,11 @@
 .contained {
-  padding: 0 80px;
+  width: calc(1280 / 1440 * 100%);
+  margin: 0 auto;
+}
+
+.comp-body {
+  background: #FFFFFF;
+  border-radius: 12px;
 }
 
 .mb-16 {

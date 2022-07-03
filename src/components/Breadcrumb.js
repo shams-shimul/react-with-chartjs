@@ -1,5 +1,5 @@
 import React from 'react'
-import './breadcrumb.css'
+import './Breadcrumb.css'
 import { FiHome } from "react-icons/fi"
 
 const Breadcrumb = () => {

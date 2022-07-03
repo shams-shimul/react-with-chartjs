@@ -1,5 +1,6 @@
 header {
   height: 64px;
+  padding: 0 calc(80 * 100vw / 1440);
   display: flex;
   align-items: center;
   background-color: #FFFFFF;
@@ -52,5 +53,5 @@ header {
 .profile-tab_name {
   display: flex;
   align-items: center;
-  column-gap: 12px;
+  column-gap: 15px;
 }

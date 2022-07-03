@@ -5,8 +5,8 @@
 	color: #9f9f9f;
 	display: flex;
 	align-items: center;
-	column-gap: 9.5px;
-	padding-top: 20px;
+	column-gap: 8px;
+	margin-top: 20px;
 }
 
 svg {
